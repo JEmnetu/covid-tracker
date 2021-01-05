@@ -15,7 +15,7 @@ function App() {
     const getData = async () => {
       try {
         const res = await axios.get(
-          `https://corona.lmao.ninja/v2/countries/${country}?yesterday&strict&query`
+          `https://disease.sh/v3/covid-19/countries/${country}?yesterday=true&strict=true`
         );
         let currentData = {
           cases: res.data.cases,
