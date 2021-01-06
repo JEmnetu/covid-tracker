@@ -25,9 +25,4 @@ table{
   width: auto;
 }
 
-@media (max-width:415px){
-  #flag{
-    margin-bottom:1em
-  }
-}
 

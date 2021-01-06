@@ -1,3 +1,4 @@
+import { Container } from "react-bootstrap";
 import { HorizontalBar } from "react-chartjs-2";
 
 const Graph = ({ caseData }) => {
@@ -30,7 +31,11 @@ const Graph = ({ caseData }) => {
       ],
     },
   };
-  return <HorizontalBar data={data} options={options} width={550} />;
+  return (
+    <Container className="mb-2">
+      <HorizontalBar data={data} options={options} width={550} />
+    </Container>
+  );
 };
 
 export default Graph;

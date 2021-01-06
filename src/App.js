@@ -72,7 +72,7 @@ function App() {
           {data.flag && (
             <Image
               id="flag"
-              className="mt-5 mx-2"
+              className=" mt-2 mb-4 mx-2 mt-sm-5"
               src={data.flag}
               alt="flag"
               height="100px"
@@ -83,7 +83,7 @@ function App() {
 
         <Row className="d-flex align-items-center justify-content-center">
           <Col md={10}>
-            <Table variant="dark" striped>
+            <Table variant="dark" responsive striped>
               <thead>
                 <tr>
                   <th>Population</th>
