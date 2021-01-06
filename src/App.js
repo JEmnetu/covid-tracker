@@ -88,8 +88,8 @@ function App() {
                 <tr>
                   <th>Population</th>
                   <th>Total Cases</th>
-                  <th>Total Deaths</th>
                   <th>Total Recovered</th>
+                  <th>Total Deaths</th>
                 </tr>
               </thead>
               <tbody>
@@ -97,8 +97,8 @@ function App() {
                   <tr>
                     <td>{data ? data.pop.toLocaleString() : "-"}</td>
                     <td>{data ? data.cases.toLocaleString() : "-"}</td>
-                    <td>{data ? data.deaths.toLocaleString() : "-"}</td>
                     <td>{data ? data.recovered.toLocaleString() : "-"}</td>
+                    <td>{data ? data.deaths.toLocaleString() : "-"}</td>
                   </tr>
                 )}
               </tbody>
